@@ -6,7 +6,15 @@
 
 <struts>
     <package name="action" namespace="/" extends="struts-default">
-        <action name="add" class="addressAction" method="add">
+
+        <action name="addManager" class="action.ManagerAction" method="add">
+            <result name="success">/index.jsp</result>
+        </action>
+
+        <action name="addUser" class="action.UserAction" method="add">
+            <result name="success">/index.jsp</result>
+        </action>
+        <action name="deleteUser" class="action.UserAction" method="delete">
             <result name="success">/index.jsp</result>
         </action>
     </package>

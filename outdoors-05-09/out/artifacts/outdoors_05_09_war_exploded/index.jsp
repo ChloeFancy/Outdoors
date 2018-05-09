@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>数据操作成功！</title>
   </head>
   <body>
-  $END$
+  数据操作成功！
   </body>
 </html>
